@@ -73,6 +73,7 @@ nav ul li a{
 .descrip {
   float: right;
   max-width: 530px;
+      width: 100%;
   margin-right: 35px;
   font-size: 24px;
   line-height: 36px;
@@ -600,4 +601,179 @@ color: #ffffff;
 }
 .texto-resultado span{
   font-weight: bold;
+}
+/******* Quienes Somos *********/
+.full-height-qs {
+    min-height: 100vh;
+    background: url(../images/bg-qs.jpg) right no-repeat;
+    background-size: contain;
+    margin-top: -97px;
+}
+.cuadro-qs{
+  left: 40%;
+}
+.descrip-qs h1 {
+    font-size: 44px;
+}
+.descrip-qs p {
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: 0.02em;
+    width: 357px;
+    margin-top: 25px;
+}
+.botones-redes p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+}
+.botones-redes a {
+    display: inline-block;
+    margin: 10px 15px 0 0;
+}
+.quienes-somos {
+    max-width: 1070px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.13);
+    margin-top: -5%;
+}
+.texto-quienes-somos {
+    padding: 57px 63px 30px 63px;
+}
+.texto-quienes-somos p {
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #5A6175;
+}
+.img-team {
+    display: flex;
+        margin-top: 100px;
+}
+.img-team figure{
+    z-index: 1;
+    overflow: hidden;
+    margin: 0 20px 35px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+.img-hover {
+    background: rgba(85, 172, 238, 0.88);
+    position: absolute;
+    top: 7px;
+    left: -37px;
+    width: 141%;
+    height: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    -webkit-transition: -webkit-transform .35s;
+    transition: -webkit-transform .35s;
+    transition: transform .35s;
+    transition: transform .35s,-webkit-transform .35s;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.img-team figure:hover .img-hover{
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.img-hover h3 {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    font-weight: bold;
+    width: 100%;
+    padding: 0 35px;
+}
+.team-descrip{
+  max-width: 1070px;
+width: 100%;
+background: #FFFFFF;
+box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.13);
+padding: 110px 68px 25px 68px;
+margin-top: -100px;
+}
+.team-descrip p{
+  font-size: 20px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #5A6175;
+}
+.row-contact{
+  margin-top: 100px;
+}
+.contact-form {
+    width: 850px;
+    display: block;
+        margin-top: 30px;
+            margin-bottom: 60px;
+}
+.contact-form p {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.contact-form input{
+    width: 245px !important;
+    margin: 0 !important;
+}
+.contact-form p:nth-child(2) select{
+  width: 245px !important;
+  margin: 0 !important;
+}
+.contact-form p:nth-child(2) input[type="email"]{
+   margin-left: 8px !important;
+}
+.contact-form p:nth-child(3) select{
+  margin: 0 !important;
+  width: 77% !important;
+}
+.contact-form p:nth-child(4) textarea{
+  margin: 0 !important;
+  width: 77% !important;
+}
+.terminos-condiciones {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.terminos-condiciones span {
+    font-size: 15px;
+    line-height: 23px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #5A6175;
+    margin-right: 30px;
+}
+.terminos-condiciones span a {
+    text-decoration-line: underline;
+    color: #F26539;
+}
+.contact-form button[type=submit]{
+  background: #5A6175;
+  border-radius: 60px;
+  color: #fff !important;
+  text-transform: uppercase;
+  width: 184px;
+  padding: 16px 0;
+  font-size: 16px;
+  letter-spacing: 0.1em;
 }
