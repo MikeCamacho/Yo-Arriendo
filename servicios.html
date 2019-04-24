@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="https://unpkg.com/inuit-css@latest">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Yo Arriendo</title>
+  </head>
+  <body>
+    <header class="container row justify-between align-center p-relative">
+      <a href="#"><img src="images/lgo.png" alt=""></a>
+      <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Quienes Somos</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contáctenos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Primer Screen -->
+    <div class="row align-center full-height-servicios">
+      <div class="cuadro cuadro-qs"></div>
+      <div class="col-l-8 p-relative margin-top-50">
+        <div class="descrip descrip-qs">
+          <h3>Somos</h3>
+          <h1>YoArriendo.<span>co</span></h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed diam quam. </p>
+          <div class="botones-redes">
+            <p>Puedes contactarnos a tràves de:</p>
+            <a href="#"><img src="images/icon-WhatsApp.png" alt=""></a>
+            <a href="#"><img src="images/icon-Messenger.png" alt=""></a>
+            <a href="#"><img src="images/icon-gmail.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end primer screen -->
+    <div class="row container justify-center  p-relative">
+      <div class="row row-card-services">
+          <div class="card-service">
+              <figure>
+                <img src="images/servicio-promocion.jpg" alt="">
+              </figure>
+              <h3>Promoción</h3>
+              <p>Promocionamos tu inmueble en plataformas de arrendamiento, redes sociales y grupos inmobiliarios especializados.</p>
+              <p class="price-service">GRATIS</p>
+              <a href="#modal" class="cta">Registrarme</a>
+          </div>
+          <div class="card-service">
+              <figure>
+                <img src="images/servicio-evaluamos.jpg" alt="">
+              </figure>
+              <h3>Evaluamos a tus candidatos</h3>
+              <p>Estudiamos el perfil de tu inquilino potencial para que puedas tomar una decisión mejor informada al momento de cerrar un negocio</p>
+              <p class="price-service">$ 60.000</p>
+              <a href="#modal" class="cta">Solicitar</a>
+          </div>
+          <div class="card-service">
+              <figure>
+                <img src="images/servicio-contratos.jpg" alt="">
+              </figure>
+              <h3>Contratos de arriendo profesionales</h3>
+              <p>Redactamos tus contratos de arrendamiento para que sean legales y claros.</p>
+              <p class="price-service">$ 60.000</p>
+              <a href="#modal" class="cta">Solicitar</a>
+          </div>
+      </div>
+    </div>
+    <!-------- Modal ---------->
+    <div id="modal">
+		  <a href="#cerrar"></a>
+		   <div id="modalContent">
+         <h2>Solicitar Servicio</h2>
+         <form class="contact-form" action="" method="post">
+             <p>
+               <label for="">Nombre</label>
+               <input type="text" name="nombre" value="" placeholder="Nombre Completo">
+               <label for="">Teléfono</label>
+               <input type="tel" name="telefono" value="" placeholder="Su teléfono">
+             </p>
+             <p>
+               <label for="">Correo</label>
+               <input type="email" name="email" value="" placeholder="Correo electrónico">
+               <label for="select-ciudad">Ciudad:</label>
+               <select class="" name="" id="select-ciudad">
+                 <option value="Medellín">Medellín</option>
+                 <option value="Bogotá">Bogotá</option>
+                 <option value="Envigado">Envigado</option>
+                 <option value="Bello">Bello</option>
+                 <option value="Itagui">Itagui</option>
+                 <option value="Soacha">Soacha</option>
+               </select>
+             </p>
+             <p>
+               <label for="">¿Qué servicio desea solicitar?</label>
+               <select class="" name="" id="">
+                 <option value="Contrato de arrendamiento profesional">Contrato de arrendamiento profesional</option>
+                 <option value="Evaluamos a tus candidatos">Evaluamos a tus candidatos</option>
+                 <option value="Promoción">Promoción</option>
+               </select>
+             </p>
+             <div class="terminos-condiciones">
+               <span>Al completar este formulario usted acepta los <a href="">Términos y Conidiciones</a></span>
+               <button type="submit" name="button-enviar">ENVIAR</button>
+             </div>
+         </form>
+			      <a href="#cerrar">X</a>
+		   </div>
+		</div>
+    <!-------- End Modal ---------->
+    <footer class="p-t-80">
+        <div class="container row align-end justify-between">
+            <div class="col-l-3">
+              <img src="images/lgo-w.png" alt="">
+            </div>
+            <div class="col-l-3 b-r">
+              <h4>Yo Arriendo</h4>
+              <li><a href="#">Quienes Somos</a></li>
+              <li><a href="#">Servicios</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contáctenos</a></li>
+            </div>
+            <div class="col-l-4">
+              <h4>Ubicaciones</h4>
+              <li><a href="#">Arriendos Directos en Bogotá</a></li>
+              <li><a href="#">Arriendos Directos en Medellín</a></li>
+              <li><a href="#">Arriendos Directos en Soacha</a></li>
+              <li><a href="#">Arriendos Directos en Envigado</a></li>
+            </div>
+            <div class="col-l-4">
+              <li><a href="#">Arriendos Directos en Bogotá</a></li>
+              <li><a href="#">Arriendos Directos en Medellín</a></li>
+              <li><a href="#">Arriendos Directos en Soacha</a></li>
+              <li><a href="#">Arriendos Directos en Envigado</a></li>
+            </div>
+            <div class="col-l-12 bar-bottom">
+              <p>Designed with love by arepa.co in Bogotá</p>
+            </div>
+          </div>
+        </footer>
+      </body>
+    </html>
