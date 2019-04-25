@@ -16,7 +16,7 @@
             <li><a href="#">Quienes Somos</a></li>
             <li><a href="#">Servicios</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">Contáctenos</a></li>
+            <li><a href="#modal-contacto-general">Contáctenos</a></li>
         </ul>
       </nav>
     </header>
@@ -382,6 +382,67 @@
       </div>
     </div>
     <!-- end quarter screen -->
+    <!-- Modal Contacto General   -->
+    <div id="modal-contacto-general">
+		  <a href="#cerrar"></a>
+		   <div id="modalContent">
+         <h2>Contáctenos</h2>
+         <div class="row justify-between m-b-40 m-t-28">
+           <div class="contacto-directo">
+             <p>Contácto directo a traves de:</p>
+             <a href="#"><img src="images/icon-WhatsApp.png" alt=""></a>
+             <a href="#"><img src="images/icon-Messenger.png" alt=""></a>
+             <a href="#"><img src="images/icon-gmail.png" alt=""></a>
+           </div>
+           <div class="contacto-directo">
+             <p>Nuestras redes sociales:</p>
+             <a href="#"><img src="images/icon-facebook.png" alt=""></a>
+             <a href="#"><img src="images/icon-linkedin.png" alt=""></a>
+             <a href="#"><img src="images/icon-twitter.png" alt=""></a>
+           </div>
+         </div>
+         <p class="into-contact">También puedes llenar el siguiente formulario y pronto te contactaremos.</p>
+         <form class="contact-form" action="" method="post">
+             <p>
+               <label for="">Nombre</label>
+               <input type="text" name="nombre" value="" placeholder="Nombre Completo">
+               <label for="">Teléfono</label>
+               <input type="tel" name="telefono" value="" placeholder="Su teléfono">
+             </p>
+             <p>
+               <label for="">Correo</label>
+               <input type="email" name="email" value="" placeholder="Correo electrónico">
+               <label for="select-ciudad">Ciudad:</label>
+               <select class="" name="" id="select-ciudad">
+                 <option value="Medellín">Medellín</option>
+                 <option value="Bogotá">Bogotá</option>
+                 <option value="Envigado">Envigado</option>
+                 <option value="Bello">Bello</option>
+                 <option value="Itagui">Itagui</option>
+                 <option value="Soacha">Soacha</option>
+               </select>
+             </p>
+             <p>
+               <label for="">Tipo de Contacto</label>
+               <select class="" name="" id="">
+                 <option value="Contrato de arrendamiento profesional">Contrato de arrendamiento profesional</option>
+                 <option value="Evaluamos a tus candidatos">Evaluamos a tus candidatos</option>
+                 <option value="Promoción">Promoción</option>
+               </select>
+             </p>
+             <p>
+               <label for="">Comentario</label>
+               <textarea name="name" rows="5" cols="80"></textarea>
+             </p>
+             <div class="terminos-condiciones">
+               <span>Al completar este formulario usted acepta los <a href="">Términos y Conidiciones</a></span>
+               <button type="submit" name="button-enviar">ENVIAR</button>
+             </div>
+         </form>
+			      <a href="#cerrar">X</a>
+		   </div>
+		</div>
+    <!-- end Contacto General   -->
     <footer class="p-t-80">
       <div class="container row align-end justify-between">
         <div class="col-l-3">
